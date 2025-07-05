@@ -50,7 +50,7 @@ function App() {
               <span className="text-4xl md:text-5xl lg:text-6xl font-extrabold font-[Orbitron] leading-none tabular-nums w-28 h-28 md:w-36 md:h-36 inline-flex items-center justify-center bg-black/50 text-white rounded-md">
                 {styling.value}
               </span>
-              <span className="text-sm md:text-base text-white/70 mt-2 inline-flex items-center justify-center bg-black/50 w-28 h-8 md:w-36 rounded">
+              <span className="text-sm md:text-base text-white/70 mt-2 inline-flex items-center font-[Orbitron] justify-center bg-black/50 w-28 h-8 md:w-36 rounded">
                 {styling.label}
               </span>
             </div>
@@ -58,7 +58,7 @@ function App() {
 
           {/* AM/PM */}
           <div className="flex flex-col items-center">
-            <span className="text-base md:text-lg lg:text-xl font-semibold leading-none tracking-widest w-20 h-8 inline-flex items-center justify-center bg-black/50 text-white rounded mt-2 md:mt-[155px]">
+            <span className="text-base md:text-lg lg:text-xl  font-[Orbitron] font-semibold leading-none tracking-widest w-20 h-8 inline-flex items-center justify-center bg-black/50 text-white rounded mt-2 md:mt-[155px]">
               {ampm}
             </span>
           </div>
