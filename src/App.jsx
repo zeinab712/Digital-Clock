@@ -42,11 +42,15 @@ function App() {
 
   return (
     <>
-      <div className=" font-[Orbitron] w-screen h-screen backdrop-blur-md bg-black/20 text-white flex flex-col items-center justify-center text-center p-4">
+      <div
+        className="font-[Orbitron] w-screen h-screen bg-black/10 text-white flex flex-col items-center justify-center text-center p-4"
+        style={{
+          backdropFilter: "blur(7px) brightness(1.5)",
+        }}
+      >
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 pt-10">
           Digital Clock
         </h1>
-
         <div className="flex flex-col md:flex-row items-center justify-center gap-y-5 md:gap-y-0 gap-x-4 md:gap-x-12 lg:gap-x-16">
           {/* Timer and AM/PM */}
           {timerStyling.map((styling) => (
